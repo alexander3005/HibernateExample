@@ -3,15 +3,10 @@ package Dao;
 import logic.User;
 import org.hibernate.Session;
 import util.HibernateUtil;
-
 import javax.swing.*;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-
-/**
- * Created by Acer on 13.09.2015.
- */
 public class UserDaoImpl implements  UserDao {
     @Override
     public void addUser(User user) throws SQLException {
